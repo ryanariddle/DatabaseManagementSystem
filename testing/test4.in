@@ -1,0 +1,15 @@
+load students;
+load enrolled;
+load schedule;
+select SID from students, schedule where Dept = Major;
+select Room from schedule where CCN < '21200';
+select NonExistant from students, enrolled where SID = '101';
+select NonExistant from schedule where Sem = 'F';
+select SID from students where NonExistant = 'whut';
+select SID from students, schedule where Nonexistant = 'whut';
+select SID from students where Major != 'EECS' and SID = Nonexistant;
+select Firstname, Lastname from students, schedule where SID > '100' and SID != YearEnter and Time & 'WillNotGetHere';
+select SID from students, students;
+insert into students values 'not', 'enough';
+insert into students values 'way', 'to', 'many', 'literals', 'being', 'added', 'in', 'this', 'test';
+exit;

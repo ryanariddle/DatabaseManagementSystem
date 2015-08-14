@@ -1,0 +1,15 @@
+load students;
+load enrolled;
+load schedule;
+insert into students values '777','Riddle','Ryan','F','2013','English';
+print students;
+create table table1 (Name, FavoriteTVShow, FavoriteFood);
+insert into table1 values 'Ryan', 'GameofThrones', 'Everything';
+create table table2 (Name, Name);
+create table table2 as select FavoriteTVShow, FavoriteFood, Major from table1, students;
+print table2;
+select Firstname, FavoriteTVShow, FavoriteFood, Major from table1, students where SID = '101';
+store table1;
+load table1;
+load ryan;
+quit;

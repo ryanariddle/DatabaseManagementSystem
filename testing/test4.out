@@ -1,0 +1,27 @@
+DB61B System.  Version 1.0
+Loaded students.db
+Loaded enrolled.db
+Loaded schedule.db
+Search results:
+  104
+  105
+  102
+  101
+Search results:
+  2301 Tolman
+  130 Wheeler
+  1 Pimentel
+  2050 VLSB
+Error: Column NonExistant doesn't exist
+Error: Column NonExistant doesn't exist
+Error: unknown column: Nonexistant
+Error: unknown column: NonExistant
+Error: unexpected token: 'Nonexistant'
+Error: unrecognizable relation
+Search results:
+  106
+  104
+  105
+  102
+  103
+  101
